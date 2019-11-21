@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topimg {
+    width: 100%;
+}
+element.style {
+    border-bottom: 3px solid #208900;
+}
+.top_detalle {
+
+
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#curso_detalle {
+    width: 70%;
+  /* text-align: center;*/
+    border: 1px solid #ccc;
+
+}
+.curso {
+ 
+    background-color: white;
+    min-height: 100px;
+    margin: 20px auto;
+   
+    text-align: center;
+    padding: 15px;
+   
+}
+
+
+
+#curso_detalle h1 {
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.duracion {
+    background: #ebebeb;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    font-family: 'flamabold';
+    padding: 5px 10px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#columnchart_values{
+    margin-bottom: 11%;
+    margin-left: 25%;
+}
+
+#curso_detalle p {
+    font-family: 'flamabasic',Arial,Helvetica,sans-serif;
+    
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+        background: white;
+}
+.tabla_plan {
+    width: 47%;
+    float: left;
+    margin: 10px 1%;
+}
+#tplan {
+    background-color: #eee;
+    margin-left: 13%;
+}
+table {
+    max-width: 100%;}
+
+    table, th, td,tr {
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-family: Arial,Helvetica,sans-serif;
+     }
+
+        .boldie {
+             font-weight: bolder; 
+        }
+
+        #smalltitulo {
+            border-top: 2px solid #ccc;
+            padding-top: 10px;
+        }
+
+.contenfoot {
+    background-color: #13851B;
+    width: 100%;
+}
+
+.redes {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    justify-content: flex-end;
+    width: 83%;
+    padding-top: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.red img {
+    max-width: 100%;
+    -webkit-border-radius: 5px;
+      cursor: pointer;
+  
+  
+}
+.red {
+    position: relative;
+    margin: 5px;
+    overflow: hidden;
+    width: 35px;
+}
+
+
+.enlaces {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 60%;
+    margin:  auto;
+    padding-bottom: 1%;
+}
+
+h1{margin-top: 20px;
+    margin-bottom: 10px;}
