@@ -1,0 +1,173 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/facultad.css">
+    <link rel="stylesheet" type="text/css" href="css/cursos.css">
+
+</head>
+
+<body>
+    <section id="nav">
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Regresar</a></li>
+               
+            </ul>
+        </nav>
+    </section>
+
+
+
+    <div class="topimg" style="max-width:800px">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo.jpg">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo2.jpg">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo3.jpg">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo4.jpg">
+
+
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2500);
+        }
+    </script>
+    <!--<div class="topimg">
+
+        <img src="assets/logo.jpg" width="100%">
+
+    </div>-->
+
+    <div class="curso" id="curso_detalle">
+        <div class="top_detalle" style="border-bottom: 3px solid #208900;">
+            <h1 id="bigtitulo" style="color:#208900;">OFERTA ACADÉMICA EN GASTRONOMÍA</h1>
+
+        </div>
+        <div class="opciones">
+
+            <p>&nbsp;</p>
+
+         
+                <div class="opcion"><img src="assets/gastronomia.jpg" width="848" height="449" alt="Cursos de Gastronomia en Uruguay" title="Cursos de Gastronomia en Uruguay">
+                      <p>&nbsp;</p>
+                    <h2 style="color: #208900;margin-top: 0px;" class="tit_opcion">Gastronomía</h2>
+                    <p id="textoop">Los cursos de Gastronomía brindan capacitación en cocina Nacional e Internacional y aportan los conocimientos necesarios para alcanzar la excelencia como profesional de la Alta Cocina.</p>
+                </div>
+           
+              <p>&nbsp;</p>
+          
+                <div class="opcion"><img src="assets/pasteleria.jpg " width="848" height="449" alt="Cursos de Pastelería en Uruguay" title="Cursos de Pastelería en Uruguay">
+                      <p>&nbsp;</p>
+                    <h2 style="color: #b5106f;margin-top: 0px;" class="tit_opcion">Pastelería</h2>
+                    <p id="textoop">Nuestros cursos de pastelería instruyen sobre la utilización de nuevas técnicas de pastelería y patisserie, y la implementación de materias primas de vanguardia. Los alumnos de nuestros cursos de pastelería aprenderán a realizar postres, tortas y productos de panificación, y materias relacionadas de administración y marketing gastronómico.
+                    </p>
+                </div>
+          
+            <p>&nbsp;</p>
+         
+                <div class="opcion"><img src="assets/cursos.jpg" width="848" height="449" alt="Cursos cortos de cocina en Uruguay" title="Cursos cortos de cocina en Uruguay">
+                                <p>&nbsp;</p>
+
+                    <h2 style="color: #1f54a5;margin-top: 0px;" class="tit_opcion">Cursos Cortos</h2>
+                    <p id="textoop">Los cursos cortos de cocina ofrecen capacitaciones rápidas y de alta calidad para apasionados de la cocina, la repostería, la pastelería otros temas vinculados al área gastronómica. También son una interesante oportunidad para quienes se quieran iniciar como sommelier o bartenders.</p>
+                </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <section id="footer">
+        <footer>
+            <div class="contenfoot">
+
+                <div class="redes">
+
+                    <a rel="nofollow" href="https://www.facebook.com">
+                        <div class="red">
+                            <img src="assets/fb.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+
+
+                    <a rel="nofollow" href="https://twitter.com/">
+                        <div class="red">
+                            <img src="assets/tw.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+
+                    <a rel="nofollow" href="https://www.instagram.com/">
+                        <div class="red">
+                            <img src="assets/in.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+
+                    <a rel="nofollow" href="https://www.youtube.com/">
+                        <div class="red">
+                            <img src="assets/yt.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="enlaces">
+
+
+
+
+                    <div>
+
+                        <h1>CURSOS</h1>
+                        <p>
+                            <a href="">Disponibles...</a>
+                            <br>
+
+
+                    </div>
+
+                    <div>
+
+                        <h1>NOVEDADES</h1>
+                        <a href="index.html">Blog (español)</a>
+                        <br>
+                        <a href="indexbr.html">Blog (portugués)</a>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+    </section>
+
+
+
+</body>
+
+</html>
