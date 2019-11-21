@@ -1,0 +1,801 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/facultad.css">
+
+</head>
+
+<body>
+    <section id="nav">
+        <nav>
+            <ul>
+
+                <li><a href="#bigtitulo">Introdução</a></li>
+                <li><a href="#smalltitulo">Plano de estudo</a></li>
+                <li><a href="#objetivo">Objetivo</a></li>
+                <li><a href="#vid">Video</a></li>
+                <li><a href="#sueldos">Salários</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+
+    <div class="topimg" style="max-width:800px">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo.jpg">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo2.jpg">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo3.jpg">
+        <img class="mySlides w3-animate-right" width="189.9%" height="500" src="assets/logo4.jpg">
+
+
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2500);
+        }
+    </script>
+    <!--<div class="topimg">
+
+        <img src="assets/logo.jpg" width="100%">
+
+    </div>-->
+
+    <div class="curso" id="curso_detalle">
+        <div class="top_detalle" style="border-bottom: 3px solid #208900;">
+            <h1 id="bigtitulo" style="color:#208900;">Gastronomia e Alta Culinária</h1>
+            <div class="duracion" style="color:#208900; border-color:#208900;">Duração: 2 Anos</div>
+        </div>
+        
+      <p> O curso "Gastronomia e alta gastronomia" fornece o conhecimento necessário para alcançar a excelência como profissional de gastronomia.
+            <br> Você também terá as ferramentas para iniciar um negócio culinário e, assim, alcançar o pico de sucesso, tornando a culinária a sua profissão.
+            <br>
+            <br> Torne-se um profissional da alta cozinha e arte culinária! Dirija uma equipe de chefs em um negócio culinário do mais alto nível!
+            <br>
+            <br> Concluído e aprovado no 1º ano em que você recebe o certificado de COZINHA PROFISSIONAL
+            <br> Concluído e aprovado no 2º ano, você recebe o certificado de GASTRONOMIA E ALTA COZINHA </p>
+
+
+
+
+        <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.jssor_1_slider_init = function () {
+
+                var jssor_1_SlideshowTransitions = [
+                    {
+                        $Duration: 1200,
+                        $Zoom: 1,
+                        $Easing: {
+                            $Zoom: $Jease$.$InCubic,
+                            $Opacity: $Jease$.$OutQuad
+                        },
+                        $Opacity: 2
+                    },
+                    {
+                        $Duration: 1000,
+                        $Zoom: 11,
+                        $SlideOut: true,
+                        $Easing: {
+                            $Zoom: $Jease$.$InExpo,
+                            $Opacity: $Jease$.$Linear
+                        },
+                        $Opacity: 2
+                    },
+                    {
+                        $Duration: 1200,
+                        $Zoom: 1,
+                        $Rotate: 1,
+                        $During: {
+                            $Zoom: [0.2, 0.8],
+                            $Rotate: [0.2, 0.8]
+                        },
+                        $Easing: {
+                            $Zoom: $Jease$.$Swing,
+                            $Opacity: $Jease$.$Linear,
+                            $Rotate: $Jease$.$Swing
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.5
+                        }
+                    },
+                    {
+                        $Duration: 1000,
+                        $Zoom: 11,
+                        $Rotate: 1,
+                        $SlideOut: true,
+                        $Easing: {
+                            $Zoom: $Jease$.$InQuint,
+                            $Opacity: $Jease$.$Linear,
+                            $Rotate: $Jease$.$InQuint
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.8
+                        }
+                    },
+                    {
+                        $Duration: 1200,
+                        x: 0.5,
+                        $Cols: 2,
+                        $Zoom: 1,
+                        $Assembly: 2049,
+                        $ChessMode: {
+                            $Column: 15
+                        },
+                        $Easing: {
+                            $Left: $Jease$.$InCubic,
+                            $Zoom: $Jease$.$InCubic,
+                            $Opacity: $Jease$.$Linear
+                        },
+                        $Opacity: 2
+                    },
+                    {
+                        $Duration: 1200,
+                        x: 4,
+                        $Cols: 2,
+                        $Zoom: 11,
+                        $SlideOut: true,
+                        $Assembly: 2049,
+                        $ChessMode: {
+                            $Column: 15
+                        },
+                        $Easing: {
+                            $Left: $Jease$.$InExpo,
+                            $Zoom: $Jease$.$InExpo,
+                            $Opacity: $Jease$.$Linear
+                        },
+                        $Opacity: 2
+                    },
+                    {
+                        $Duration: 1200,
+                        x: 0.6,
+                        $Zoom: 1,
+                        $Rotate: 1,
+                        $During: {
+                            $Left: [0.2, 0.8],
+                            $Zoom: [0.2, 0.8],
+                            $Rotate: [0.2, 0.8]
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.5
+                        }
+                    },
+                    {
+                        $Duration: 1000,
+                        x: -4,
+                        $Zoom: 11,
+                        $Rotate: 1,
+                        $SlideOut: true,
+                        $Easing: {
+                            $Left: $Jease$.$InQuint,
+                            $Zoom: $Jease$.$InQuart,
+                            $Opacity: $Jease$.$Linear,
+                            $Rotate: $Jease$.$InQuint
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.8
+                        }
+                    },
+                    {
+                        $Duration: 1200,
+                        x: -0.6,
+                        $Zoom: 1,
+                        $Rotate: 1,
+                        $During: {
+                            $Left: [0.2, 0.8],
+                            $Zoom: [0.2, 0.8],
+                            $Rotate: [0.2, 0.8]
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.5
+                        }
+                    },
+                    {
+                        $Duration: 1000,
+                        x: 4,
+                        $Zoom: 11,
+                        $Rotate: 1,
+                        $SlideOut: true,
+                        $Easing: {
+                            $Left: $Jease$.$InQuint,
+                            $Zoom: $Jease$.$InQuart,
+                            $Opacity: $Jease$.$Linear,
+                            $Rotate: $Jease$.$InQuint
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.8
+                        }
+                    },
+                    {
+                        $Duration: 1200,
+                        x: 0.5,
+                        y: 0.3,
+                        $Cols: 2,
+                        $Zoom: 1,
+                        $Rotate: 1,
+                        $Assembly: 2049,
+                        $ChessMode: {
+                            $Column: 15
+                        },
+                        $Easing: {
+                            $Left: $Jease$.$InCubic,
+                            $Top: $Jease$.$InCubic,
+                            $Zoom: $Jease$.$InCubic,
+                            $Opacity: $Jease$.$OutQuad,
+                            $Rotate: $Jease$.$InCubic
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.7
+                        }
+                    },
+                    {
+                        $Duration: 1000,
+                        x: 0.5,
+                        y: 0.3,
+                        $Cols: 2,
+                        $Zoom: 1,
+                        $Rotate: 1,
+                        $SlideOut: true,
+                        $Assembly: 2049,
+                        $ChessMode: {
+                            $Column: 15
+                        },
+                        $Easing: {
+                            $Left: $Jease$.$InExpo,
+                            $Top: $Jease$.$InExpo,
+                            $Zoom: $Jease$.$InExpo,
+                            $Opacity: $Jease$.$Linear,
+                            $Rotate: $Jease$.$InExpo
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.7
+                        }
+                    },
+                    {
+                        $Duration: 1200,
+                        x: -4,
+                        y: 2,
+                        $Rows: 2,
+                        $Zoom: 11,
+                        $Rotate: 1,
+                        $Assembly: 2049,
+                        $ChessMode: {
+                            $Row: 28
+                        },
+                        $Easing: {
+                            $Left: $Jease$.$InCubic,
+                            $Top: $Jease$.$InCubic,
+                            $Zoom: $Jease$.$InCubic,
+                            $Opacity: $Jease$.$OutQuad,
+                            $Rotate: $Jease$.$InCubic
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.7
+                        }
+                    },
+                    {
+                        $Duration: 1200,
+                        x: 1,
+                        y: 2,
+                        $Cols: 2,
+                        $Zoom: 11,
+                        $Rotate: 1,
+                        $Assembly: 2049,
+                        $ChessMode: {
+                            $Column: 19
+                        },
+                        $Easing: {
+                            $Left: $Jease$.$InCubic,
+                            $Top: $Jease$.$InCubic,
+                            $Zoom: $Jease$.$InCubic,
+                            $Opacity: $Jease$.$OutQuad,
+                            $Rotate: $Jease$.$InCubic
+                        },
+                        $Opacity: 2,
+                        $Round: {
+                            $Rotate: 0.8
+                        }
+                    }
+            ];
+
+                var jssor_1_options = {
+                    $AutoPlay: 1,
+                    $SlideshowOptions: {
+                        $Class: $JssorSlideshowRunner$,
+                        $Transitions: jssor_1_SlideshowTransitions,
+                        $TransitionsOrder: 1
+                    },
+                    $ArrowNavigatorOptions: {
+                        $Class: $JssorArrowNavigator$
+                    },
+                    $ThumbnailNavigatorOptions: {
+                        $Class: $JssorThumbnailNavigator$,
+                        $Rows: 2,
+                        $SpacingX: 14,
+                        $SpacingY: 12,
+                        $Orientation: 2,
+                        $Align: 156
+                    }
+                };
+
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                /*#region responsive code begin*/
+
+                var MAX_WIDTH = 960;
+
+                function ScaleSlider() {
+                    var containerElement = jssor_1_slider.$Elmt.parentNode;
+                    var containerWidth = containerElement.clientWidth;
+
+                    if (containerWidth) {
+
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+                    } else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+
+                ScaleSlider();
+
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                /*#endregion responsive code end*/
+            };
+        </script>
+        <style>
+            /*jssor slider loading skin spin css*/
+            
+            .jssorl-009-spin img {
+                animation-name: jssorl-009-spin;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+            
+            @keyframes jssorl-009-spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            
+            .jssora093 {
+                display: block;
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            .jssora093 .c {
+                fill: none;
+                stroke: #fff;
+                stroke-width: 400;
+                stroke-miterlimit: 10;
+            }
+            
+            .jssora093 .a {
+                fill: none;
+                stroke: #fff;
+                stroke-width: 400;
+                stroke-miterlimit: 10;
+            }
+            
+            .jssora093:hover {
+                opacity: .8;
+            }
+            
+            .jssora093.jssora093dn {
+                opacity: .6;
+            }
+            
+            .jssora093.jssora093ds {
+                opacity: .3;
+                pointer-events: none;
+            }
+            /*jssor slider thumbnail skin 101 css*/
+            
+            .jssort101 .p {
+                position: absolute;
+                top: 0;
+                left: 0;
+                box-sizing: border-box;
+                background: #000;
+            }
+            
+            .jssort101 .p .cv {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 2px solid #000;
+                box-sizing: border-box;
+                z-index: 1;
+            }
+            
+            .jssort101 .a {
+                fill: none;
+                stroke: #fff;
+                stroke-width: 400;
+                stroke-miterlimit: 10;
+                visibility: hidden;
+            }
+            
+            .jssort101 .p:hover .cv,
+            .jssort101 .p.pdn .cv {
+                border: none;
+                border-color: transparent;
+            }
+            
+            .jssort101 .p:hover {
+                padding: 2px;
+            }
+            
+            .jssort101 .p:hover .cv {
+                background-color: rgba(0, 0, 0, 6);
+                opacity: .35;
+            }
+            
+            .jssort101 .p:hover.pdn {
+                padding: 0;
+            }
+            
+            .jssort101 .p:hover.pdn .cv {
+                border: 2px solid #fff;
+                background: none;
+                opacity: .35;
+            }
+            
+            .jssort101 .pav .cv {
+                border-color: #fff;
+                opacity: .35;
+            }
+            
+            .jssort101 .pav .a,
+            .jssort101 .p:hover .a {
+                visibility: visible;
+            }
+            
+            .jssort101 .t {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: none;
+                opacity: .6;
+            }
+            
+            .jssort101 .pav .t,
+            .jssort101 .p:hover .t {
+                opacity: 1;
+            }
+        </style>
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:960px;height:480px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+            </div>
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:240px;width:720px;height:480px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="assets/foto1.png" />
+                    <img data-u="thumb" src="assets/foto1.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/foto2.jpg" />
+                    <img data-u="thumb" src="assets/foto2.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/foto3.jpg" />
+                    <img data-u="thumb" src="assets/foto3.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/foto4.jpg" />
+                    <img data-u="thumb" src="assets/foto4.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/foto5.jpg" />
+                    <img data-u="thumb" src="assets/foto5.jpg" />
+                </div>
+
+                <div>
+                    <img data-u="image" src="assets/foto6.jpg" />
+                    <img data-u="thumb" src="assets/foto6.jpg" />
+                </div><a data-u="any" href="https://www.jssor.com" style="display:none">slider bootstrap</a>
+            </div>
+            <!-- Thumbnail Navigator -->
+            <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;top:0px;width:240px;height:480px;background-color:#000;" data-autocenter="2" data-scale-left="0.75">
+                <div data-u="slides">
+                    <div data-u="prototype" class="p" style="width:99px;height:66px;">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                        <svg viewbox="0 0 16000 16000" class="cv">
+                            <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                            <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                            <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora093" style="width:50px;height:50px;top:0px;left:270px;" data-autocenter="2">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                    <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
+                    <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora093" style="width:50px;height:50px;top:0px;right:30px;" data-autocenter="2">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                    <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
+                    <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
+                </svg>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jssor_1_slider_init();
+        </script>
+
+
+        <div class="top_detalle" style="border-bottom: 3px solid #208900;">
+            <h1 id="smalltitulo" style="color:#208900">Currículo do curso de Gastronomia e Alta Culinária</h1>
+        </div>
+        <div class="tabla_plan">
+             <table id="tplan">
+                <tbody>
+                    <tr class="boldie">
+                        <td colspan="2">Período: 1º ano | Carga horária prevista: 360</td>
+                    </tr>
+                    <tr>
+                        <td>Cozinha I</td>
+                        <td>Prático</td>
+                    </tr>
+                    <tr>
+                        <td>Padaria e Pastelaria I (gastronomia)</td>
+                        <td>Prático</td>
+                    </tr>
+                    <tr>
+                        <td>Francês</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr>
+                        <td>Segurança e higiene</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr>
+                        <td>Administração e Marketing Gastronômico I</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr>
+                        <td>Enologia</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr class="boldie">
+                        <td colspan="2">Certificado: Cozinheiro Profissional</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tabla_plan">
+            <table id="tplan">
+                <tbody>
+                    <tr class="boldie">
+                        <td colspan="2">Período: 2º ano | Carga horária prevista: 360</td>
+                    </tr>
+                    <tr>
+                        <td>Coquetéis</td>
+                        <td>Prático</td>
+                    </tr>
+                    <tr>
+                        <td>Organização de Eventos, Cerimonial e Protocolo</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr>
+                        <td>Administração de Alimentos e Bebidas</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr>
+                        <td>Administração e Marketing Gastronômico II</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr>
+                        <td>Inglês</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr>
+                        <td>Padaria e Pastelaria II (gastronomia)</td>
+                        <td>Prático</td>
+                    </tr>
+                    <tr>
+                        <td>Cozinha II</td>
+                        <td>Prático</td>
+                    </tr>
+                    <tr>
+                        <td>Trabalho Integrativo Final</td>
+                        <td>Teórico</td>
+                    </tr>
+                    <tr class="boldie">
+                        <td colspan="2">Certificado: Gastronomia e Alta Culinária</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        
+        <div style="clear: both"></div>
+        <p id="objetivo"></p>
+
+        <h1 id="smalltitulo" style="color:#208900;">Objetivo do curso Gastronomia e Alta Culinária</h1>
+        <div class="top_detalle" style="border-bottom: 3px solid #208900;"></div>
+        <p>Oferecer treinamento abrangente que permita uma rápida inserção no mercado de trabalho.
+            <br>
+            <br> Espalhar nossa culinária pelo mundo, participando ativamente de eventos nacionais e internacionais.
+            <br>
+            <br>Prepare o aluno para ser um excelente chef e um empreendedor de sucesso.</p>
+
+        <h1 id="smalltitulo" style="color:#208900;">Video</h1>
+                            <div class="top_detalle" style="border-bottom: 3px solid #208900;"></div>
+
+                <p id="vid">Você tem dúvidas por que deveria estudar gastronomia? Aqui está um vídeo com o que você deve saber</p> 
+                      
+                        
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/xJDeF5I1A2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <p id="sueldos">&nbsp;</p>
+                                <h1 id="smalltitulo" style="color:#208900;">Salários do chef no Brasil</h1>
+        <div class="top_detalle" style="border-bottom: 3px solid #208900;"></div>
+        
+        <div id="columnchart_values" style="width: 900px; height: 300px;">
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+                google.charts.load("current", {
+                    packages: ['corechart']
+                });
+                google.charts.setOnLoadCallback(drawChart);
+
+                function drawChart() {
+                    var data = google.visualization.arrayToDataTable([
+                                          ["Element", "", {
+                            role: "style"
+                        }],
+                                          ["Salário mínimo em Reais", 1207, "#b87333"],
+                                          ["Salário médio nacional em Reais", 1967, "silver"],
+                                          ["Salário Máximo em Reais", 3366, "gold"]
+
+                                        ]);
+
+                    var view = new google.visualization.DataView(data);
+                    view.setColumns([0, 1,
+                        {
+                            calc: "stringify",
+                            sourceColumn: 1,
+                            type: "string",
+                            role: "annotation"
+                        },
+                                                         2]);
+
+                    var options = {
+                        width: 600,
+                        height: 400,
+                        bar: {
+                            groupWidth: "95%"
+                        },
+                        legend: {
+                            position: "none"
+                        },
+                    };
+                    var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+                    chart.draw(view, options);
+                }
+            </script>
+
+        </div>
+    </div>
+
+    <section id="footer">
+        <footer>
+            <div class="contenfoot">
+
+                <div class="redes">
+
+                    <a rel="nofollow" href="https://www.facebook.com">
+                        <div class="red">
+                            <img src="assets/fb.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+
+
+                    <a rel="nofollow" href="https://twitter.com/">
+                        <div class="red">
+                            <img src="assets/tw.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+
+                    <a rel="nofollow" href="https://www.instagram.com/">
+                        <div class="red">
+                            <img src="assets/in.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+
+                    <a rel="nofollow" href="https://www.youtube.com/">
+                        <div class="red">
+                            <img src="assets/yt.jpg">
+                            <div class="red-overlay top"></div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="enlaces">
+
+
+
+
+                    <div>
+
+                        <h1>CURSOS</h1>
+                        <p>
+                            <a href="">Gastronomia e Alta Culinária</a>
+                            <br>
+                            <a href="">Pastelaria Profissional e Avançada</a>
+                            <br>
+                            <a href="">Chef express</a>
+                            <br>
+
+                    </div>
+
+                    <div>
+
+                        <h1>NOVIDADES</h1>
+                            <a href="index.html">Blog (Espanhol)</a>
+                            <br>
+                            <a href="indexbr.html">Blog (Português)</a>
+                            
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+    </section>
+
+
+
+</body>
+
+</html>
